@@ -2,6 +2,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Colori */
+
+.hamburger,
+.jumbotron_right small a {
+  color: #2485FD;
+}
+
 /* Buttons */
 .btn_blue {
   border-color: #2485FD;
@@ -16,13 +23,35 @@ body {
   color: #fff;
 }
 
-.hamburger {
-  color: #2485FD;
+.sign_up {
+  background-color: #579AFF;
+  color: #fff;
+  border-color: #579AFF;
+  font-weight: 500;
+}
+
+.sign_up:hover {
+  background-color: #fff;
+  color: #579AFF;
+}
+
+.sign_up_google{
+  background-image: url(../img/google-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  box-shadow: 1px 1px 1px #ccc;
+  opacity: 0.5;
+}
+
+.sign_up_google:hover {
+  opacity: 1.0;
 }
 
 /* Navbar */
 .navbar {
   line-height: 44px;
+  background-color: #fff;
 }
 
 .logo img {
@@ -30,6 +59,59 @@ body {
 }
 
 .navbar ul li a {
-  color: #000;
+  color: #031b4f;
   font-weight: 500;
+}
+
+/* Jumbotron */
+.jumbotron_do {
+  background-image: url(../img/bg-hero.svg);
+  background-size: cover;
+  background-position: bottom right;
+  margin-top: 46px;
+}
+
+.jumbotron_left {
+  color: #fff;
+}
+
+.jumbotron_left h1 {
+  font-size: 54px;
+}
+
+.jumbotron_left p {
+  color: #BBCDFF;
+  font-weight: 500;
+}
+
+.jumbotron_right {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.jumbotron_right h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #031b4f;
+}
+
+.jumbotron_right h2:nth-child(2) {
+  color: #0060FF;
+  margin-top: 10px;
+}
+
+.jumbotron_right input {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  line-height: 30px;
+}
+
+.jumbotron_right small {
+  font-size: 12px;
+  font-weight: 500;
+  color: #031b4f;
 }
