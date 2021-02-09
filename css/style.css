@@ -3,10 +3,17 @@ body {
 }
 
 /* Colori */
-
 .hamburger,
 .jumbotron_right small a {
   color: #2485FD;
+}
+
+.bg_grey {
+  background-color: #F3F5F9;
+}
+
+.brand_logo h6 {
+  color: #6F7B97;
 }
 
 /* Buttons */
@@ -69,6 +76,7 @@ body {
   background-size: cover;
   background-position: bottom right;
   margin-top: 46px;
+  margin-bottom: 0;
 }
 
 .jumbotron_left {
@@ -114,4 +122,31 @@ body {
   font-size: 12px;
   font-weight: 500;
   color: #031b4f;
+}
+
+.jumbotron_right small a {
+  text-decoration: underline;
+}
+
+/* Prima section */
+.brand_logo {
+  padding: 20px 0;
+}
+
+.brand_logo img {
+  height: 77px;
+  width: 33%;
+  margin: 10px 0;
+}
+
+.brand_logo a {
+  display: block;
+}
+
+/* Responsive */
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .brand_logo img {
+    width: 15%;
+  }
 }
