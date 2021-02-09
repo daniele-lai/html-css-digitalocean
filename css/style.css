@@ -12,7 +12,8 @@ body {
   background-color: #F3F5F9;
 }
 
-.brand_logo h6 {
+.brand_logo h6,
+.section_title p {
   color: #6F7B97;
 }
 
@@ -141,6 +142,36 @@ body {
 
 .brand_logo a {
   display: block;
+}
+
+/* Seconda Section */
+.section_title h2 {
+  margin-top: 60px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #031b4f;
+}
+
+.section_title p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.list_feature li {
+  list-style: none;
+  border-left: 1px solid #ccc;
+}
+
+.list_feature li a {
+  font-size: 17px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #6F7B97;
+  padding-left: 10px;
+}
+
+.feature_box {
+  margin-top: 15px;
 }
 
 /* Responsive */
