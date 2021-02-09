@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Buttons */
+.btn_blue {
+  border-color: #2485FD;
+  color: #2485FD;
+  font-weight: 500;
+  padding: 3px 12px;
+}
+
+.btn_blue:hover {
+  border-color: #2485FD;
+  background-color: #2485FD;
+  color: #fff;
+}
+
+.hamburger {
+  color: #2485FD;
+}
+
+/* Navbar */
+.navbar {
+  line-height: 44px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navbar ul li a {
+  color: #000;
+  font-weight: 500;
+}
