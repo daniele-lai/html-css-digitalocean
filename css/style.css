@@ -9,7 +9,9 @@ body {
 /* Colori */
 .hamburger,
 .jumbotron_right small a,
-.bullet a {
+.bullet a,
+.feature_box a,
+.brand_logo a {
   color: #2485FD;
 }
 
@@ -150,8 +152,12 @@ body {
 }
 
 /* Seconda Section */
-.section_title h2 {
+.section_title {
   margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.section_title h2 {
   font-size: 25px;
   font-weight: 600;
   color: #031b4f;
@@ -160,7 +166,6 @@ body {
 .section_title p {
   font-weight: 500;
   font-size: 18px;
-  margin-bottom: 50px;
 }
 .list_feature li {
   list-style: none;
