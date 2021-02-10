@@ -301,6 +301,48 @@ body {
 /* Settima section */
 .blue_gradient {
   background-image: url(../img/blue-gradient.svg);
+  background-size: cover;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: hsl(220,95%,8%);
+}
+
+footer h6 {
+  font-size: 14px;
+  color: #fff;
+}
+
+footer ul  {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li a, footer p {
+  color: hsla(0,0%,100%,0.5);
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer p small {
+  opacity: 0.8;
+}
+
+footer img {
+  padding: 10px 0;
+}
+
+.social_list {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+footer li a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Responsive */
