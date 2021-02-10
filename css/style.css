@@ -258,12 +258,45 @@ body {
   text-decoration: none;
 }
 
+/* Sesta Section */
+.carousel_quote {
+  background-color: #fff;
+  width: 99%;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.carousel_quote img {
+  width: 200px;
+}
+
+.carousel_quote h3 {
+  font-size: 22px;
+}
+
+.carousel_quote span, .carousel_link {
+  display: block;
+  font-size: 16px;
+}
+
+.carousel_link {
+  padding: 20px 0 50px 0;
+}
+
 /* Responsive */
 /* Large Desktop */
 @media screen and (min-width: 1200px) {
   .brand_logo img {
     width: calc((100% / 6) - 4px);
   }
+
+  .carousel_quote {
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+  }
+
 }
 
 /* Small Desktop */
@@ -279,6 +312,17 @@ body {
   .world_do table tr td:nth-child(2) {
     width: 65%;
   }
+
+  .carousel_quote img {
+    width: 200px;
+  }
+
+  .carousel_quote {
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+  }
+
 }
 
 /* Tablet */
@@ -289,5 +333,15 @@ body {
 
   .carousel img {
     width: 500px;
+  }
+
+  .carousel_quote img {
+    width: 200px;
+  }
+
+  .carousel_quote {
+    background-color: #fff;
+    width: 600px;
+    height: auto;
   }
 }
