@@ -163,6 +163,14 @@ body {
   color: #031b4f;
 }
 
+.section_title_white {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
 .section_title p {
   font-weight: 500;
   font-size: 18px;
@@ -189,6 +197,10 @@ body {
   font-size: 16px;
 }
 
+.feature_box p {
+  color: #5b6987;
+}
+
 /* Terza Section */
 .carousel {
   display: inline-block;
@@ -211,6 +223,41 @@ body {
   font-size: 12px;
 }
 
+/* Quinta Section "World" */
+.world_do {
+  background-image: url(../img/bg-map.svg);
+  background-size: cover;
+  background-color: #031B51;
+  color: #fff;
+}
+
+.world_do table tr:not(:nth-child(6)) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.world_do table {
+  width: 100%;
+}
+
+.world_do table tr td {
+  padding: 10px;
+}
+
+.world_do table tr td:nth-child(2) {
+  width: 71%;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.world_do table tr td a {
+  color: #00d7d2;
+}
+
+.world_do table tr td a:hover {
+  color: #1633ff;
+  text-decoration: none;
+}
+
 /* Responsive */
 /* Large Desktop */
 @media screen and (min-width: 1200px) {
@@ -227,6 +274,10 @@ body {
 
   .brand_logo img {
     width: calc((100% / 6) - 4px);
+  }
+
+  .world_do table tr td:nth-child(2) {
+    width: 65%;
   }
 }
 
