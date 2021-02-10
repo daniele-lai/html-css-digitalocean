@@ -33,10 +33,24 @@ body {
   padding: 3px 12px;
 }
 
+.btn_blue_2 {
+  border-color: #2485FD;
+  color: #2485FD;
+  font-weight: 500;
+  padding: 6px 12px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
 .btn_blue:hover {
   border-color: #2485FD;
   background-color: #2485FD;
   color: #fff;
+}
+
+.btn_blue_2:hover {
+  background-color: rgba(225, 225, 225, 0.9);
+  color: #0069ff;
 }
 
 .sign_up {
@@ -282,6 +296,11 @@ body {
 
 .carousel_link {
   padding: 20px 0 50px 0;
+}
+
+/* Settima section */
+.blue_gradient {
+  background-image: url(../img/blue-gradient.svg);
 }
 
 /* Responsive */
